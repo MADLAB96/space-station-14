@@ -67,6 +67,9 @@
     - DoorBumpOpener
   - type: Input
     context: "human"
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/metal_impact.ogg
 
 - type: entity
   parent: BasePDA
@@ -520,4 +523,4 @@
         state: pda-atmos
   - type: Icon
     state: pda-atmos
-        
+
